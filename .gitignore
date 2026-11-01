@@ -1,0 +1,20 @@
+# Private files (never pushed)
+private/
+output/
+outputs/
+out/
+renders/
+*.mp4
+*.mov
+*.wav
+*.mp3
+.env
+.env.*
+node_modules/
+
+# Public assets (re-included on purpose, keep below the rules above)
+!sound-effects/
+!sound-effects/**
+!skills/20-talkinghead-editing-styles/PREVIEW-all-20-styles.mp4
+!promos/
+!promos/**

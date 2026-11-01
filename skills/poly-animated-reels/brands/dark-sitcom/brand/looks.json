@@ -1,0 +1,14 @@
+{
+ "sets": [
+  "bedroom",
+  "cubicle",
+  "garage",
+  "study"
+ ],
+ "lights": [
+  "moody",
+  "warm",
+  "cold",
+  "neon"
+ ]
+}

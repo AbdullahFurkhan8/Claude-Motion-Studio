@@ -1,0 +1,21 @@
+{
+  "name": "claude-motion-studio",
+  "owner": {
+    "name": "Abdullah",
+    "url": "https://github.com/AbdullahFurkhan8"
+  },
+  "plugins": [
+    {
+      "name": "claude-motion-studio",
+      "source": "./",
+      "description": "Code-drawn explainer videos, low-poly talking-character reels, a motion-graphics director skill and 20 motion/editing styles.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Abdullah"
+      },
+      "homepage": "https://github.com/AbdullahFurkhan8/Claude-Motion-Studio",
+      "category": "media",
+      "keywords": ["video", "motion-graphics", "animation", "reels", "explainer"]
+    }
+  ]
+}

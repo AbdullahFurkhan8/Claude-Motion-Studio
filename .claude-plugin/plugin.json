@@ -1,0 +1,23 @@
+{
+  "name": "claude-motion-studio",
+  "version": "1.0.0",
+  "description": "Four video skills for Claude: code-drawn explainer shorts, low-poly talking-character reels, a full motion-graphics director, and 20 ready-made motion/editing styles.",
+  "author": {
+    "name": "Abdullah",
+    "url": "https://github.com/AbdullahFurkhan8"
+  },
+  "homepage": "https://github.com/AbdullahFurkhan8/Claude-Motion-Studio",
+  "repository": "https://github.com/AbdullahFurkhan8/Claude-Motion-Studio",
+  "keywords": [
+    "video",
+    "motion-graphics",
+    "animation",
+    "remotion",
+    "shorts",
+    "reels",
+    "explainer",
+    "low-poly",
+    "captions",
+    "sfx"
+  ]
+}

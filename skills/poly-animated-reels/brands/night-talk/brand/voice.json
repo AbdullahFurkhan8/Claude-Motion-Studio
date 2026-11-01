@@ -1,0 +1,17 @@
+{
+  "api": "generate",
+  "temperature": 1,
+  "human": {
+    "name": "Speaker 1",
+    "voice": "Bodi",
+    "gender": "male",
+    "style": "Style: Introspective, slightly tired/breathy, low-energy American mid-tone."
+  },
+  "bot": {
+    "name": "Speaker 2",
+    "voice": "Kore",
+    "gender": "female",
+    "style": "Style: Calm, smooth, grounded, softly spoken assistant tone.",
+    "scriptName": "Nova"
+  }
+}

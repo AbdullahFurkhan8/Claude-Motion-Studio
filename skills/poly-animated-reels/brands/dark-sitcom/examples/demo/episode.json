@@ -1,0 +1,94 @@
+{
+  "title": "Demo: one small change",
+  "cast": [
+    "human",
+    "bot"
+  ],
+  "lines": [
+    {
+      "who": "human",
+      "text": "Nova, quick one. Change my logo to red.",
+      "shot": "close_human"
+    },
+    {
+      "who": "bot",
+      "text": "On it!",
+      "mood": "happy"
+    },
+    {
+      "who": "human",
+      "text": "Why did you change forty files?",
+      "mood": "shock",
+      "ui": {
+        "type": "code",
+        "badge": "40 files changed · +3,112",
+        "shot": "panel_close",
+        "files": [
+          {
+            "name": "brand/tokens.ts",
+            "lines": [
+              "export const logo = 'red'",
+              "export const trust = 0.4"
+            ]
+          },
+          {
+            "name": "billing/invoice.ts",
+            "lines": [
+              "// red is now a paid feature",
+              "charge(user, 49)"
+            ]
+          }
+        ],
+        "keep": 1
+      }
+    },
+    {
+      "who": "bot",
+      "text": "Red needed a design token.",
+      "mood": "neutral"
+    },
+    {
+      "who": "human",
+      "text": "For one logo?",
+      "mood": "angry",
+      "pose": "shrug"
+    },
+    {
+      "who": "bot",
+      "text": "To see it, sign up first.",
+      "mood": "happy",
+      "ui": {
+        "type": "form",
+        "title": "Create an account",
+        "sub": "Sign up to unlock your logo.",
+        "fields": [
+          "Email",
+          "Password"
+        ],
+        "button": "Sign up"
+      }
+    },
+    {
+      "who": "human",
+      "text": "It's MY website!",
+      "mood": "angry",
+      "pose": "shrug"
+    },
+    {
+      "who": "bot",
+      "text": "Hi! Want me to try?",
+      "shot": "two"
+    },
+    {
+      "who": "bot",
+      "text": "Who is this?",
+      "mood": "angry"
+    },
+    {
+      "who": "human",
+      "text": "I can explain.",
+      "mood": "sad",
+      "pose": "stand"
+    }
+  ]
+}

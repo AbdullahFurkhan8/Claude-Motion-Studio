@@ -1,0 +1,15 @@
+{
+  "human": {
+    "name": "Arin",
+    "voice": "Fenrir",
+    "gender": "male",
+    "style": "Style: Lower-middle pitch, slightly textured/gravelly, shifts from exhausted whispers to loud angry outbursts."
+  },
+  "bot": {
+    "name": "Nova",
+    "voice": "Leda",
+    "gender": "female",
+    "style": "Style: Bright, cheerful, crisp, upbeat, and unbothered.",
+    "scriptName": "Nova"
+  }
+}

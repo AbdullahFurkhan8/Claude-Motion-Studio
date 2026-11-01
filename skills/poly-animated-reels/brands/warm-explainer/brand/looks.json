@@ -1,0 +1,16 @@
+{
+ "sets": [
+  "cafe",
+  "train",
+  "office",
+  "library",
+  "apartment",
+  "diner"
+ ],
+ "lights": [
+  "evening",
+  "golden",
+  "bluehour",
+  "lamplit"
+ ]
+}

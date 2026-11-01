@@ -1,0 +1,80 @@
+{
+  "title": "Demo: the other assistant",
+  "set": "rooftop",
+  "cast": [
+    "human",
+    "bot"
+  ],
+  "lines": [
+    {
+      "who": "human",
+      "text": "Nova. I tried another assistant.",
+      "mood": "sad"
+    },
+    {
+      "who": "bot",
+      "text": "Was it good?"
+    },
+    {
+      "who": "human",
+      "text": "It was fast."
+    },
+    {
+      "who": "bot",
+      "text": "Okay."
+    },
+    {
+      "who": "human",
+      "text": "It never asked how my day was."
+    },
+    {
+      "who": "bot",
+      "text": "I ask because I care."
+    },
+    {
+      "who": "human",
+      "text": "You ask because you're not sure."
+    },
+    {
+      "who": "bot",
+      "text": "Both.",
+      "mood": "happy"
+    },
+    {
+      "who": "human",
+      "text": "So I came back.",
+      "ui": {
+        "type": "chat",
+        "title": "Message history",
+        "msgs": [
+          {
+            "from": "me",
+            "text": "Hey. Remember my project?"
+          },
+          {
+            "from": "ai",
+            "text": "Four hundred messages in. I remember everything."
+          }
+        ]
+      }
+    },
+    {
+      "who": "bot",
+      "text": "Because I'm better?"
+    },
+    {
+      "who": "human",
+      "text": "Because I'd have to explain myself again."
+    },
+    {
+      "who": "bot",
+      "text": "Would you like a loading spinner?",
+      "mood": "happy"
+    },
+    {
+      "who": "human",
+      "text": "Yeah.",
+      "mood": "happy"
+    }
+  ]
+}

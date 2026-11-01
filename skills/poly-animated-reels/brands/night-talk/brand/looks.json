@@ -1,0 +1,15 @@
+{
+ "sets": [
+  "bench",
+  "fireescape",
+  "campfire",
+  "keys",
+  "rooftop"
+ ],
+ "lights": [
+  "night",
+  "amber",
+  "moon",
+  "violet"
+ ]
+}

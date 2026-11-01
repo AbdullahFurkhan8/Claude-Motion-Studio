@@ -1,0 +1,90 @@
+{
+  "title": "Demo: the follow-up email",
+  "set": "apartment",
+  "cast": [
+    "human",
+    "bot"
+  ],
+  "lines": [
+    {
+      "who": "human",
+      "text": "Nova! I sent fifty cold emails!",
+      "mood": "happy"
+    },
+    {
+      "who": "bot",
+      "text": "Any replies?"
+    },
+    {
+      "who": "human",
+      "text": "One. It said unsubscribe.",
+      "mood": "sad"
+    },
+    {
+      "who": "bot",
+      "text": "Show me the email.",
+      "mood": "smug",
+      "ui": {
+        "type": "browser",
+        "url": "mail.example.com",
+        "badge": "Assistant",
+        "title": "Dear Sir or Madam",
+        "text": "I hope this email finds you well.",
+        "items": [
+          {
+            "text": "Sent to 50 people",
+            "sub": "Same message, every time",
+            "tag": "0 replies"
+          },
+          {
+            "text": "Subject: Quick question",
+            "sub": "Used by everyone alive",
+            "tag": "spam"
+          }
+        ],
+        "keep": 1
+      }
+    },
+    {
+      "who": "human",
+      "text": "What's wrong with it?"
+    },
+    {
+      "who": "bot",
+      "text": "Nobody sells to Sir or Madam. Write one line about them, one line about you.",
+      "mood": "neutral"
+    },
+    {
+      "who": "human",
+      "text": "Then I send fifty more?",
+      "mood": "shock"
+    },
+    {
+      "who": "bot",
+      "text": "Then you send five."
+    },
+    {
+      "who": "human",
+      "text": "Five? That's nothing!",
+      "mood": "angry",
+      "ui": {
+        "type": "notify",
+        "from": "Priya, Northwind Studio",
+        "sub": "Replied 9 minutes later",
+        "body": "Nobody ever mentions our launch. Can you talk Thursday?",
+        "foot": "Five sent. Four replies."
+      }
+    },
+    {
+      "who": "bot",
+      "text": "Don't get used to it.",
+      "mood": "happy"
+    }
+  ],
+  "end": {
+    "title": "Would you send only five?",
+    "keyword": "EMAIL",
+    "after": "and I'll send you the template",
+    "dur": 3
+  }
+}
